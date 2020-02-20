@@ -5,7 +5,7 @@
 <!-- With Bootstrap, avoid margin-top and use rems for margins -->
 
 <head>
-    <title>CHANGEME</title>
+    <title>Teresa B.</title>
 
     <!-- Stylesheets -->
     <!-- Bootstrap Stylesheet -->
@@ -28,15 +28,37 @@
 </head>
 
 <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">Teresa Bruggeman</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse float-right" id="navbarNav">
+                <ul class="navbar-nav float-right">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Bio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
     <!--  Bootstrap div -->
     <div class="container">
         <div id="row-1" class="row">
             <div class="jumbotron col-md-12">
-                <img id="avatar" class="float-left rounded-circle mr-2"
+                <img id="avatar" class="float-left rounded-circle mr-4"
                     src="../assets/images/teresa_bruggeman_engineer.jpg">
                 <div>
-                    <h1 class="display-4">Hello, world!</h1>
+                    <h1 class="display-4">Read about me, World!</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pulvinar nisl sit amet tortor
                         porta accumsan. Morbi volutpat metus non congue laoreet. Mauris ac semper erat, faucibus
                         hendrerit justo. Nunc commodo massa non urna molestie sagittis. Sed faucibus quis felis sit amet
@@ -55,17 +77,21 @@
                         lacus sit amet massa. Nullam fermentum nisi at quam convallis, eu imperdiet sapien mattis.
                         Praesent sit amet rhoncus tortor. Sed nisl urna, ultrices a aliquam ut, scelerisque sed sem.</p>
                 </div>
-                
-        </div>
-        <div id="row-2" class="row">
-            <div class="col-md-12"></div>
+
+            </div>
+            <!-- <div id="row-2" class="row">
+            <div class="col-6"></div>
                 <hr class="my-4">
                 <p>It uses utility classes for typography and spacing to space content out within the larger
             container.</p>
-            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+            <a class="btn btn-primary btn-md" href="#" role="button">See My Work</a>
+        </div> -->
         </div>
-    </div>
-
+        <!-- end of Bootstrap container -->
+        <!-- sticky footer -->
+        <footer class="footer">
+            <p>Coded with <span>:-)</span> by Teresa B.</p>
+        </footer>
 
         <!-- Scripts for Bootstrap -->
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"

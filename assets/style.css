@@ -1,5 +1,52 @@
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 36px;
+    margin: 15px;
+}
+
+body{
+    background-color: rgb(238, 240, 241);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.navbar {
+    background-color: gray;
+    color: white;
+}
+
+.card {
+    height: ;
+}
+
+.card-text-1{
+    font-size: 25px;
+    text-align: center;
+    padding: 70px 0;    
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(233, 238, 243);
+  color: gray;
+  text-align: center;
+  font-family:Arial, Helvetica, sans-serif
+}
+
 #avatar {
     width: 275px;
     height: 275px;
     
 }
+
+@media screen and (max-width: 768px) {
+   
+    /* The wrapper's width will be 600px */
+    .wrapper {
+      width: 600px;
+    }
+  }
