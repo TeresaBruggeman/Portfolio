@@ -10,9 +10,6 @@ body{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-
-
-
 .navbar {
     background-color: gray;
     color: white;
@@ -31,13 +28,18 @@ body{
 
 .footer {
   position: fixed;
-  left: 0;
   bottom: 0;
+  left: 0;
   width: 100%;
-  background-color: rgb(233, 238, 243);
+  padding: 10px;
+  background-color: white;
   color: gray;
   text-align: center;
-  font-family:Arial, Helvetica, sans-serif
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.footer p {
+    margin-bottom: 0;
 }
 
 #avatar {
