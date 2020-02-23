@@ -5,7 +5,7 @@
 <!-- With Bootstrap, avoid margin-top and use rems for margins -->
 
 <head>
-    <title>Teresa B. Contact</title>
+    <title>Teresa B. | Contact</title>
 
     <!-- Stylesheets -->
     <!-- Bootstrap Stylesheet -->
@@ -13,7 +13,7 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <!-- Add relative path for custom stylesheets below -->
-    <!-- <link rel="stylesheet" href="assets/style.css"> -->
+    <link rel="stylesheet" href="assets/style.css">
 
     <!-- Meta -->
     <!-- metadata -->
@@ -27,6 +27,7 @@
 
 </head>
 
+
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -35,82 +36,48 @@
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+            <div class="collapse navbar-collapse float-right" id="navbarNav">
+                <ul class="navbar-nav float-right">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Bio <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="index.html">Bio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        <a class="nav-link active" href="portfolio.html">Portfolio</a>
                     </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
                     </li>
                 </ul>
             </div>
         </nav>
     </header>
 
-    <!--  Bootstrap div -->
+    <!-- ****BootStrap STARTS HERE************************************************ -->
+    <!-- ************************************************************************* -->
     <div class="container">
-        <h1 class="display-4">Contact me, World!</h1>
-        <form>
-            <!-- <div class="form-group"> -->
-                <!-- <label for="comment">Message:</label>
-                <textarea class="form-control" rows="5" maxlength="1000" required id="comment"></textarea>
-            </div>
-            <div class="form-group"></div>
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" required id="exampleInputEmail1" aria-describedby="emailHelp">
-            <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else.</small> -->
-                <!-- <div class="form-group form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Check me out</label>
-            </div> -->
-                <!-- <section method="post" action="mailto:tsbruggeman@gmail.com">
-                <input type="submit" value="Send Email" />
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </section> -->
-                <!-- <div class="form-group" enctype="text/plain" method="get" action="mailto:tsbruggeman@gmail.com">
-                    Your First Name: <input type="text" name="first_name"><br>
-                    Your Last Name: <input type="text" name="last_name"><br>
-                    Comments: <textarea rows="5" cols="30" name="comments"></textarea>
-                    <input type="submit" value="Send">
-                </div> -->
-                <form action="mailto:example@example.com?subject=Test" method="post" enctype="text/plain" class="form-horizontal">
-                    <div class="form-group">
-                      <label for="name" class="col-sm-2 control-label">Name</label>
-                      <div class="col-sm-12">
-                        <input type="text" class="form-control" name="name" id="name" placeholder="Name">
-                      </div>
-                    </div>
-                    <div class="form-group">
-                      <label for="company" class="control-label">Company</label>
-                      <div class="">
-                        <input type="text" class="form-control" name="company" id="company" placeholder="Company">
-                      </div>
-                    </div>
-                    <div class="form-group">
-                      <label for="email" class="col-sm-2 control-label">Email</label>
-                      <div class="col-sm-12">
-                        <input type="email" class="form-control" name="email" id="email" placeholder="Email">
-                      </div>
-                    </div>
-                    <div class="form-group">
-                      <label for="message" class="col-sm-2 control-label">Message</label>
-                      <div class="col-sm-12">
-                        <textarea class="form-control" rows="3" name="message" placeholder="Your Message"></textarea>
-                      </div>
-                    </div>
-                    <div class="form-group">
-                      <div class="col-sm-offset-2 col-sm-10">
-                        <button type="submit" class="btn btn-default">Submit</button>
-                      </div>
-                    </div>
-                  </form>
-                  
-        </form>
+        <div class="row justify-content-center">
+        <h1 class=" display-4">What do you think?</h1>
+            <form class="col-md-7">
+                <div class="form-group">
+                    <label for="comment">Message:</label>
+                    <textarea class="form-control" rows="5" maxlength="1000" required id="comment"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="messengerEmail">Email address</label>
+                    <input type="email" class="form-control" required id="messengerEmail1"
+                        aria-describedby="emailHelp">
+                    <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone
+                        else.</small>
+                </div>
 
+                <div class="form-group">
+                    <section method="post" action="mailto:tsbruggeman@gmail.com">
+                        <button type="submit" class="btn btn-dark">Send Message</button>
+                    </section>
+                </div>
+            </form>
+
+        </div>
 
     </div>
 

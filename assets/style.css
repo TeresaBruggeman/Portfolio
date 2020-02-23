@@ -11,13 +11,16 @@ body{
 }
 
 
+
+
 .navbar {
     background-color: gray;
     color: white;
 }
 
-.card {
-    height: ;
+.card-img{    
+        background-size: cover;
+        
 }
 
 .card-text-1{
