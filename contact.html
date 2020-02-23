@@ -15,7 +15,6 @@
     <!-- Add relative path for custom stylesheets below -->
     <link rel="stylesheet" href="assets/style.css">
 
-    <!-- Meta -->
     <!-- metadata -->
     <meta charset="UTF-8">
     <meta name="description" content="Portfolio of Teresa Bruggeman">
@@ -55,29 +54,34 @@
 
     <!-- ****BootStrap STARTS HERE************************************************ -->
     <!-- ************************************************************************* -->
-    <div class="container">
-        <div class="row justify-content-center">
-            <h1 class=" display-4">What do you think?</h1>
-            <!-- contact form -->
+    <main class="container">
+        <section class="row justify-content-center">
+            <h1>Let's talk.</h1>
+            <!-- Contact Form -->            
             <form class="col-md-7">
+                <!-- Message -->
                 <div class="form-group">
                     <label for="comment">Message:</label>
                     <textarea class="form-control" rows="5" maxlength="1000" required id="comment"></textarea>
                 </div>
+                <!-- User's Email -->
                 <div class="form-group">
                     <label for="messengerEmail">Email address</label>
                     <input type="email" class="form-control" required id="messengerEmail1" aria-describedby="emailHelp">
                     <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone
                         else.</small>
                 </div>
+                <!-- Submit button -->
                 <div class="form-group">
                     <section method="post" action="mailto:tsbruggeman@gmail.com">
                         <button type="submit" class="btn btn-dark">Send Message</button>
                     </section>
                 </div>
             </form>
-        </div>
-    </div>
+            <!-- Added to avoid sticky footer overlap -->
+            <br>
+        </section>
+    </main>
 
     <!-- sticky footer -->
     <footer class="footer">

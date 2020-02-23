@@ -15,7 +15,6 @@
     <!-- Add relative path for custom stylesheets below -->
     <link rel="stylesheet" href="assets/style.css">
 
-    <!-- Meta -->
     <!-- metadata -->
     <meta charset="UTF-8">
     <meta name="description" content="Portfolio of Teresa Bruggeman">
@@ -29,6 +28,7 @@
 
 <body>
     <header>
+        <!-- Site-wide Navigation -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="index.html">Teresa Bruggeman</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -53,14 +53,20 @@
 
     <!-- ****BootStrap STARTS HERE************************************************ -->
     <!-- ************************************************************************* -->
-    <div class="container">
-        <div id="row-1" class="row">
-            <div class="jumbotron col-md-12">
-                <img id="avatar" class="float-left rounded-circle mr-4"
-                    src="assets/images/teresa_bruggeman_engineer.jpg">
-                <div>
-                    <h1 class="display-4">Hi, I'm Teresa B.</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pulvinar nisl sit amet tortor
+    <main class="container">
+        <div id="row-1" class="row justify-content-center">
+            <div class="jumbotron col">
+                <section class="avatar">
+                    <img id="avatar" class="float-left rounded-circle"
+                        src="assets/images/teresa_bruggeman_engineer.jpg">
+                </section>
+
+                <!-- Headline and bio text -->
+                <section>
+                    <h1>Hi, I'm Teresa B.</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Vestibulum pulvinar nisl sit amet tortor
                         porta accumsan. Morbi volutpat metus non congue laoreet. Mauris ac semper erat, faucibus
                         hendrerit justo. Nunc commodo massa non urna molestie sagittis. Sed faucibus quis felis sit amet
                         consequat. Nulla augue mi, commodo ut ligula et, fermentum imperdiet leo. Curabitur a facilisis
@@ -76,19 +82,14 @@
                         tristique lacus sed, imperdiet ligula. Nam pretium ullamcorper lacus id ornare. Morbi
                         condimentum, dolor sit amet consectetur eleifend, dui leo accumsan nulla, quis placerat sapien
                         lacus sit amet massa. Nullam fermentum nisi at quam convallis, eu imperdiet sapien mattis.
-                        Praesent sit amet rhoncus tortor. Sed nisl urna, ultrices a aliquam ut, scelerisque sed sem.</p>
-                </div>
-
+                        Praesent sit amet rhoncus tortor. Sed nisl urna, ultrices a aliquam ut, scelerisque sed sem.
+                    </p>
+                </section>
             </div>
-            <!-- <div id="row-2" class="row">
-            <div class="col-6"></div>
-                <hr class="my-4">
-                <p>It uses utility classes for typography and spacing to space content out within the larger
-            container.</p>
-            <a class="btn btn-primary btn-md" href="#" role="button">See My Work</a>
-        </div> -->
         </div>
+        <br>
         <!-- end of Bootstrap container -->
+
         <!-- sticky footer -->
         <footer class="footer">
             <p>Coded with <span>:-)</span> by Teresa B.</p>
