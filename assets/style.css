@@ -12,22 +12,69 @@ h1 {
 
 /* site body style */
 body{
-    background-color: rgb(238, 240, 241);
+    background-color:#d46f15;
+    color: #444;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.jumbotron {
+    background-color: #fffafa;
+    padding: 4rem;
+}
+
+.bio {
+    font-size: larger;
+    letter-spacing: .03em;
+}
 /* bio photo style */
 #avatar {
     width: 275px;
     height: 275px;
     margin-right: 2rem;
+    margin-bottom: 2rem;
     
 }
 
+/* .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  } */
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  
+  #avatar:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: #fffafa;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
 /* site navigation style */
 .navbar {
-    background-color: gray;
-    color: white;
+    background-color: #413256;
+}
+
+.navbar a {
+    color: #fffafa;
 }
 
 /* portfolio card styles */
@@ -53,14 +100,33 @@ body{
   left: 0;
   width: 100%;
   padding: 10px;
-  background-color: white;
-  color: gray;
+  background-color: #a3b745;
+  color: #444444;
   text-align: center;
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .footer p {
+    clear: both;
     margin-bottom: 0;
+}
+.footer li {
+    list-style: none;
+}
+
+.footer-contact {
+    float: left;
+    text-align: left;
+    margin-left: 5%;
+}
+.footer-links {
+    float: right;
+    text-align: left;
+    margin-right: 5%;
+}
+
+form {
+    margin-bottom: 20px;
 }
 
 /* responsive styles */
