@@ -1,8 +1,7 @@
-This web site will be my future portfolio site to showcase my work and abilities to the world.
-
+Welcome to Teresa B's Portfolio site.
 The site uses HTML5, CSS, and the BootStrap CSS famework to make the site semantic, accessible, and responsive.
-The site contains three pages at this point: 
+The site contains three pages: 
   The Bio or Home page, which contains information about and a photograph of me.
   The Portfolio page, which will be a gallery of images represening my projects with links to deeper explorations of each of them.
-  The Contact page, which provides an easy method to the user for sending messages or comments or inquiries to me.
-Stay tuned...this is going to be awesome.
+  The Contact page, which provides visitors with an easy method for sending messages, comments, or inquiries to me.
+Stay tuned...this is still a work in progress.
