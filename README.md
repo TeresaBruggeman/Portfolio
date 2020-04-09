@@ -1,4 +1,4 @@
-Teresa B's Portfolio site-
+Teresa B's Portfolio site
 The site uses HTML5, CSS, and the BootStrap CSS famework to make the site semantic, accessible, and responsive. It also utilizes JavaScript and jQuery for functionality.
 The site contains three pages: 
   The Bio or Home page, which contains information about and a photograph of me.
