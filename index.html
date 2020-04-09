@@ -13,7 +13,7 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <!-- Add relative path for custom stylesheets below -->
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="./style.css">
 
     <!-- metadata -->
     <meta charset="UTF-8">
@@ -29,16 +29,16 @@
 <body>
     <header>
         <!-- Site-wide Navigation -->
-        <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand" href="bio.html">Teresa Bruggeman</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="index.html">Teresa Bruggeman</a>
+            <button class="navbar-toggler btn-light justify-content-end" type="button" data-toggle="collapse"
+                data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse float-right" id="navbarNav">
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav float-right">
                     <li class="nav-item active">
-                        <a class="nav-link" href="bio.html">Bio <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="index.html">Bio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="portfolio.html">Portfolio</a>
@@ -58,10 +58,10 @@
                 <section class="avatar">
                     <img id="avatar" class="float-left rounded-circle" alt="photo of Teresa Bruggeman"
                         src="assets/images/teresa_bruggeman_engineer.jpg">
-                    <div class="overlay">
+                    <!-- <div class="overlay">
                         <img id="avatar" class="float-left rounded-circle" alt="photo of Teresa Bruggeman"
                             src="assets/images/teresa_bruggeman_headshot1.jpg">
-                    </div>
+                    </div> -->
                 </section>
 
                 <!-- Headline and bio text -->
@@ -88,25 +88,29 @@
                                 class="font-weight-bold">always</span> a way."</span></p>
                     <br>
                     <br>
+                    <br>
                 </section>
             </div>
         </div>
-        <br>
         <!-- end of Bootstrap container -->
 
         <!-- sticky footer -->
         <footer class="footer">
             <section class="footer-contact list-unstyled">
                 <li>Teresa Bruggeman</li>
-                <li>970-286-8313</li>
+                <li><a href="tel:970-286-8313">970-286-8313</a></li>
                 <li><a href="mailto:tsbruggeman@gmail.com">tsbruggeman@gmail.com</a></li>
             </section>
             <section class="footer-links list-unstyled">
-                <li><a
-                        href="https://drive.google.com/file/d/13mULctfQpj3IxSrRil2Rh3gLOi8fPyeY/view?usp=sharing">Resumé</a>
+                <li><a href="https://drive.google.com/file/d/1dGjrT1U_UnQIu0TBA69RlUkbNdFi-Un9/view?usp=sharing"
+                        target="_blank"><img src="./assets/images/resume-icon.png" alt="resume" height="30px"></img></a>
                 </li>
-                <li><a href="https://github.com/bruggineer">GitHub Profile</a></li>
-                <li><a href="https://www.linkedin.com/in/tsbruggeman">LinkedIn</a></li>
+                <li><a href="https://github.com/bruggineer" target="_blank"><img id="github"
+                            src="https://ctl.s6img.com/society6/img/y-xZ_syD7LhIJOGtpdTU08ra6Aw/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/8e29a2e79387449caa28090d71f489e3/~~/github-logo-prints.jpg"
+                            alt="LinkedIn Logo" height="30px"></a></li>
+                <li><a href="https://www.linkedin.com/in/tsbruggeman" target="_blank"><img id="linkedin"
+                            src="https://1000logos.net/wp-content/uploads/2017/03/LinkedIn-Logo.png" alt="LinkedIn Logo"
+                            height="30px"></a></li>
 
             </section>
             <p class="footer-sig small">Coded with <span>:-)</span> by Teresa B.</p>
@@ -122,6 +126,9 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
             integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
             crossorigin="anonymous"></script>
+
+        <!-- glyphicons from FontAwesome -->
+        <script src="https://kit.fontawesome.com/94ceb15587.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
