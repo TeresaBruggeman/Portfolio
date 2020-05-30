@@ -96,7 +96,6 @@ form {
   bottom: 0;
   left: 0;
   width: 100%;
-  padding: 15px;
   background-color: #a3b745;
   color: #444444;
   text-align: center;
@@ -110,20 +109,20 @@ form {
 
 .footer li {
   list-style: none;
-  padding-bottom: 10px;
+  /*padding-bottom: 10px;*/
 }
 
 .footer-contact {
   float: left;
   text-align: left;
-  margin-left: 5%;
+  /*margin-left: 5%;*/
 }
 
-.footer-links {
+/* .footer-links {
   float: right;
   text-align: left;
-  margin-right: 5%;
-}
+  /*margin-right: 5%;
+}*/
 
 /* responsive styles */
 
